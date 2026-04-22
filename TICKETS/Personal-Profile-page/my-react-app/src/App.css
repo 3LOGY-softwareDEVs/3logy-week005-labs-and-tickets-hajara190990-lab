@@ -1,0 +1,45 @@
+.App {
+  font-family: Arial, sans-serif;
+  padding: 2rem;
+  max-width: 800px;
+  margin: auto;
+}
+
+.header {
+  text-align: center;
+}
+.profile-pic {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+}
+.tagline {
+  font-style: italic;
+  color: #555;
+}
+
+.about, .skills, .interests {
+  margin-top: 2rem;
+}
+
+.skill-bar {
+  background: #ddd;
+  height: 10px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.skill-fill {
+  background: #0a2a5c;
+  height: 100%;
+}
+
+.hobby-list {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+.hobby-card {
+  background: #f4f4f4;
+  padding: 1rem;
+  border-radius: 6px;
+}
