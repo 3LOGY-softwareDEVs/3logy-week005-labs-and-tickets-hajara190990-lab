@@ -1,0 +1,38 @@
+.App {
+  font-family: Arial, sans-serif;
+  max-width: 500px;
+  margin: auto;
+  padding: 2rem;
+}
+
+.input-section {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.filters {
+  margin: 1rem 0;
+}
+
+.todo-list {
+  list-style: none;
+  padding: 0;
+}
+
+.todo-list li {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin: 0.5rem 0;
+}
+
+.todo-list li.completed span {
+  text-decoration: line-through;
+  color: gray;
+}
+
+.footer {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
