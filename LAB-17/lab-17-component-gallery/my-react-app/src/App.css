@@ -1,0 +1,71 @@
+.App {
+  font-family: Arial, sans-serif;
+  padding: 2rem;
+}
+
+section {
+  margin-bottom: 2rem;
+}
+
+.user-card {
+  border: 1px solid #ddd;
+  padding: 1rem;
+  margin: 1rem 0;
+  border-radius: 6px;
+  max-width: 300px;
+}
+.avatar {
+  border-radius: 50%;
+}
+.skills {
+  margin-top: 0.5rem;
+}
+.skill-badge {
+  background: #eee;
+  padding: 0.3rem 0.6rem;
+  margin-right: 0.3rem;
+  border-radius: 4px;
+}
+
+.progress-bar {
+  margin: 1rem 0;
+}
+.progress-track {
+  background: #ddd;
+  border-radius: 4px;
+  overflow: hidden;
+  height: 20px;
+}
+.progress-fill {
+  height: 100%;
+}
+.progress-label {
+  font-weight: bold;
+}
+.progress-text {
+  margin-left: 0.5rem;
+}
+
+.badge {
+  color: #fff;
+  padding: 0.4rem 0.8rem;
+  border-radius: 4px;
+  margin-right: 0.5rem;
+}
+
+.stat-card {
+  border: 1px solid #ddd;
+  padding: 1rem;
+  margin: 1rem 0;
+  border-radius: 6px;
+  display: inline-block;
+  width: 150px;
+  text-align: center;
+}
+.stat-icon {
+  font-size: 2rem;
+}
+.stat-value {
+  font-size: 1.5rem;
+  font-weight: bold;
+}

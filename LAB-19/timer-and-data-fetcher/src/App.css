@@ -1,0 +1,53 @@
+.app-container {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  max-width: 700px;
+  margin: auto;
+  background-color: darkred;
+}
+
+.stopwatch, .posts {
+  margin: 20px 0;
+}
+
+.time-display {
+  font-size: 2rem;
+  margin: 10px 0;
+}
+
+.buttons button {
+  margin: 5px;
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+.laps {
+  margin-top: 10px;
+  list-style: none;
+  padding: 0;
+}
+
+.search-input {
+  margin: 10px 0;
+  padding: 8px;
+  width: 100%;
+}
+
+.loading {
+  color: blue;
+}
+
+.error {
+  color: red;
+}
+
+.post-list {
+  list-style: none;
+  padding: 0;
+}
+
+.post-item {
+  margin-bottom: 15px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px;
+}
